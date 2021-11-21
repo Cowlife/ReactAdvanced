@@ -1,0 +1,59 @@
+// This is the project stylesheet
+
+// Colors
+$black: rgba(0, 0, 0, 1);
+$dim-gray: rgba(101, 145, 87, 1);
+$fire-brick: rgba(186, 45, 11, 1);
+$linen: rgba(237, 237, 234, 1);
+$steel-blue: rgba(64, 89, 173, 1);
+$transparent-black: rgba(0, 0, 0, 0.48);
+$white: rgba(255, 255, 255, 1);
+$silver: rgba(196, 196, 196, 1);
+
+// Typographies
+@mixin roboto-dark-20-regular {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-16-regular {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-26-regular {
+  font-family: "Roboto";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-32-regular {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@mixin palanquin-dark-20-regular {
+  font-family: "Palanquin Dark";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@mixin roboto-26-bold {
+  font-family: "Roboto";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@mixin reem-kufi-26-regular {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: normal;
+}
+
